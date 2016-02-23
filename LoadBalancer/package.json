@@ -1,0 +1,19 @@
+{
+  "name": "LoadBalancer",
+  "version": "0.0.1",
+  "description": "Load Balancer",
+  "main": "loadbalancer.js",
+  "scripts": {
+  "test": "node ./node_modules/mocha/bin/mocha"
+},
+  "author": "Ender Akcan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}
